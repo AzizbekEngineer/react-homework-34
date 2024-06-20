@@ -39,7 +39,6 @@ const CreateProduct = () => {
       form.append("files", img, img.name);
     });
     createProduct(form);
-    e.target.remove();
   };
 
   return (
