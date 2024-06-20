@@ -1,0 +1,45 @@
+.single-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    &__img {
+        width: 300px;
+        height: 300px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__info {
+        margin-top: 20px;
+        text-align: center;
+
+        &__title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        &__price {
+            font-size: 20px;
+            color: green;
+            margin-bottom: 10px;
+
+            span {
+                font-size: 16px;
+                color: red;
+                text-decoration: line-through;
+                margin-left: 10px;
+            }
+        }
+
+        &__description {
+            font-size: 16px;
+        }
+    }
+}

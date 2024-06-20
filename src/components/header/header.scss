@@ -1,0 +1,11 @@
+.header {
+    padding: 10px 0;
+
+    &__container,
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
